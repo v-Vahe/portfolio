@@ -428,12 +428,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-23 {
-  font-size: calc(1.9rem + 7.8vw) !important;
+  font-size: calc(1.9rem + 4.8vw) !important;
 }
 
 @media (min-width: 1200px) {
   .text-23 {
-    font-size: 7.75rem !important;
+    font-size: 4rem !important;
   }
 }
 
@@ -2470,7 +2470,7 @@ hr {
       line-height: 1.4;
     }
   }
-}
+
 
 /*=== 5.6 Hero Background ===*/
 .hero-wrap {
@@ -2481,6 +2481,7 @@ hr {
 .hero-wrap .hero-mask, .hero-wrap .hero-bg, .hero-wrap .hero-bg-slideshow {
   position: absolute;
   top: 0;
+
   left: 0;
   height: 100%;
   width: 100%;
