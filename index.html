@@ -24,11 +24,13 @@
 <link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
 <!-- Magnific Popup -->
 <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Youtube Video Background -->
+<link rel="stylesheet" type="text/css" href="vendor/jquery.mb.YTPlayer/css/jquery.mb.YTPlayer.min.css" />
 <!-- Custom Stylesheet -->
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="30">
 
 <!-- Preloader -->
 <div class="preloader">
@@ -46,41 +48,42 @@
 <div id="main-wrapper"> 
   
   <!-- Header -->
-  <header id="header" class="sticky-top"> 
+  <header id="header" class="sticky-top-slide"> 
     <!-- Navbar -->
-    <nav class="primary-menu navbar navbar-expand-none navbar-overlay navbar-overlay-dark bg-transparent border-bottom-0 text-5 fw-600">
-      <div class="container"> 
-        <!-- Logo --> 
-        <a class="logo" href="index.html" title="Callum"> <img src="images/logo.png" alt="Callum"/> </a> 
-        <!-- Logo End -->
-        <div class="text-3 ms-auto me-2"><span class="text-4 me-2"><i class="fas fa-phone"></i></span>(060) 444 434 444</div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-        <div id="header-nav" class="collapse navbar-collapse">
-          <div class="d-flex flex-column h-100 align-items-center justify-content-center">
+    <nav class="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
+      <div class="container position-relative">
+        <div class="col-auto col-lg-2 d-inline-flex ps-lg-0"> 
+          <!-- Logo --> 
+          <a class="logo" href="index.html" title="Callum"> <img src="images/logo-2.png" alt="Callum"/> </a> 
+          <!-- Logo End --> 
+        </div>
+        <div class="col col-lg-8 navbar-accordion px-0">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
+          <div id="header-nav" class="collapse navbar-collapse justify-content-center">
             <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" 	href="#about">About Me</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">What I Do</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#faq">FAQ</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Client Speak</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact Me</a></li>
-            </ul>
-            <ul class="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
-              <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
-              <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="social-icons-linkedin"><a data-bs-toggle="tooltip" href="http://www.linkedin.com/" target="_blank" title="" data-bs-original-title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+			  <li class="nav-item"><a class="nav-link smooth-scroll active" style="color:#F0F0F0" href="#home">Home</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#about">About</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#services">Services</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#resume">Resume</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#faq">FAQ</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#testimonial">Client</a></li>
+              <li class="nav-item"><a class=" nav-link smooth-scroll" style="color:#F0F0F0" href="#contact">Contact</a></li>
             </ul>
           </div>
+        </div>
+        <div class="col-auto col-lg-2 d-flex justify-content-end ps-0">
+		  <ul class="social-icons">
+		  <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
+          <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+		  <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
         </div>
       </div>
     </nav>
     <!-- Navbar End --> 
   </header>
-  <!-- Header End --> 
+  <!-- Header End -->
   
   <!-- Content
   ============================================= -->
@@ -88,45 +91,49 @@
     
     <!-- Intro
     ============================================= -->
-    <section id="home" class="bg-primary d-flex fullscreen position-relative py-5">
-      <div class="container my-auto py-4">
-        <div class="row">
-          <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn">
-            <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
+    <section id="home">
+      <div class="hero-wrap">
+        <div class="hero-mask opacity-4 bg-dark"></div>
+        <div class="hero-bg parallax" style="background-image:url('images/intro-bg.jpg');"></div>
+        <div class="hero-content d-flex fullscreen-with-header py-5">
+          <div class="container my-auto py-4 py-lg-0">
+            <div class="row py-4">
+          <div class="col-lg-7 text-center text-lg-start align-self-center order-0 order-lg-0">
+            <h1 class="text-10 text-white fw-300 mb-0">Hi, I'm Vahe and I'm in</h1>
             <div class="typed-strings">
-              <p>Designer</p>
-              <p>Developer</p>
-              <p>Callum</p>
+              <p>Data Science</p>
+              <p>Data Analytics</p>
             </div>
-            <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h2>
-            <p class="text-5">based in Los Angeles, USA.</p>
-            <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
-		  </div>
-          <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
+            <h2 class="text-23 text-white  fw-600 text-uppercase mb-0 ms-n1"><span class="typed"></span></h2>
+            <p class="text-5 text-white">based in Los Angeles, USA.</p>
+            <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a> </div>
+          <div class="col-lg-5 text-white  text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
             <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn"> <img class="img-fluid rounded-pill d-block" src="images/web-developer.jpg" title="I'm Callum" alt=""></div>
           </div>
         </div>
+          </div>
+          <a href="#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> </div>
       </div>
-      <a href="#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> </section>
-    <!-- Intro end --> 
+    </section>
+    <!-- Intro end -->
     
     <!-- About
     ============================================= -->
     <section id="about" class="section">
       <div class="container"> 
         <!-- Heading -->
-        <p class="text-center mb-2 wow fadeInUp"><span class="bg-primary text-dark px-2">About Me</span></p>
-        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp">Know Me More</h2>
+        <p class="text-8 text-center mb-2 wow fadeInUp"><span class="bg-primary  px-2" style="color:#F0F0F0">About Me</span></p>
+        <h2 class=" fw-600 text-center mb-5 wow fadeInUp" style="color:#F0F0F0" >Know Me More</h2>
         <!-- Heading end-->
         
         <div class="row">
           <div class="col-lg-8 text-center text-lg-start wow fadeInUp">
-            <h2 class="text-8 fw-400 mb-3">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary">Callum Smith</span></h2>
-            <p class="text-5">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.</p>
+            <h2 class="text-8 fw-400 mb-3" style="color:#F0F0F0">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary" style="color:#F0F0F0">Vahe Barseghyan</span></h2>
+            <p class="text-5" style="color:#F0F0F0">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.</p>
           </div>
           <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s">
             <div class="featured-box style-4">
-              <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s">22</span></div>
+              <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s" style = "color:#9FD2D9">22</span></div>
               <h3 class="text-7 wow rubberBand" data-wow-delay="2s">Years of <span class="fw-700">Experiance</span></h3>
             </div>
           </div>
@@ -395,7 +402,7 @@
     ============================================= -->
     <section>
       <div class="hero-wrap">
-        <div class="hero-mask opacity-8 bg-dark"></div>
+        <div class="hero-mask opacity-5 bg-dark"></div>
         <div class="hero-bg parallax" style="background-image:url('images/intro-bg-2.jpg');"></div>
         <div class="hero-content section">
           <div class="container text-center py-5 wow fadeInUp">
@@ -512,7 +519,7 @@
             Los Angeles, USA.
             </address>
             <h3 class="text-5 fw-600">Call:</h3>
-            <p class="text-4">(+805) 350 0980</p>
+            <p class="text-4">(+060) 444 434 444</p>
             <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
               <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
@@ -574,7 +581,7 @@
 
 <!-- Back to Top
 ============================================= --> 
-<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fas fa-arrow-up"></i></a> 
+<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fas fa-arrow-up"></i></a>
 
 <!-- JavaScript --> 
 <script src="vendor/jquery/jquery.min.js"></script> 
@@ -584,11 +591,13 @@
 <!-- Appear --> 
 <script src="vendor/jquery.appear/jquery.appear.min.js"></script> 
 <!-- WOW animation --> 
-<script src="vendor/wow/wow.min.js"></script> 
+<script src="vendor/wow/wow.min.js"></script>
 <!-- Images Loaded --> 
 <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> 
 <!-- Typed --> 
 <script src="vendor/typed/typed.min.js"></script> 
+<!-- Youtube Video Background --> 
+<script src="vendor/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js"></script> 
 <!-- Parallax Bg --> 
 <script src="vendor/parallaxie/parallaxie.min.js"></script> 
 <!-- Owl Carousel --> 
@@ -596,7 +605,7 @@
 <!-- isotope Portfolio Filter --> 
 <script src="vendor/isotope/isotope.pkgd.min.js"></script> 
 <!-- Magnific Popup --> 
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 <!-- Custom Script --> 
 <script src="js/theme.js"></script>
 </body>
