@@ -167,7 +167,7 @@ a, a:focus {
 }
 
 a:hover, a:active {
-  color: #f3d92c;
+  color: #338AFF;
   text-decoration: none;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -3420,7 +3420,7 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
 }
 
 .btn-link:hover {
-  color: #f3d92c;
+  color: #338AFF;
 }
 
 .text-secondary {
@@ -3432,7 +3432,7 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
 }
 
 a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
-  background-color: #f3d92c !important;
+  background-color: #338AFF !important;
 }
 
 .border-primary {
@@ -3450,19 +3450,19 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 }
 
 .btn-primary:hover {
-  background-color: #f3d92c;
-  border-color: #f3d92c;
+  background-color: #338AFF;
+  border-color: #338AFF;
   color: #212529;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
-  background-color: #f3d92c;
-  border-color: #f3d92c;
+  background-color: #338AFF;
+  border-color: #338AFF;
 }
 
 .btn-primary.focus, .btn-primary:focus {
-  background-color: #f3d92c;
-  border-color: #f3d92c;
+  background-color: #338AFF;
+  border-color: #338AFF;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -3521,7 +3521,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 }
 
 .page-link:hover {
-  color: #f3d92c;
+  color: #338AFF;
 }
 
 /* Pagination */
